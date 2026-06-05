@@ -1,0 +1,65 @@
+$date
+	Fri Jun 05 08:29:56 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module comcircuit_tb $end
+$var wire 1 ! X $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 ! X $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+0$
+0#
+0"
+0!
+$end
+#10000
+1$
+b1 %
+#20000
+1#
+0$
+b10 %
+#30000
+1!
+1$
+b11 %
+#40000
+0!
+1"
+0#
+0$
+b100 %
+#50000
+1!
+1$
+b101 %
+#60000
+1!
+1#
+0$
+b110 %
+#70000
+1$
+b111 %
+#80000
+b1000 %
