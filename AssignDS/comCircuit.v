@@ -5,6 +5,6 @@ module comcircuit(
     output X
     );
 
-    assign X = (A&B&C) ||(A&B&~C) ||(~A&B&C) ||(A&~B&C);
+    assign X = (A&B&C)|(A&B&~C) |(~A&B&C) |(A&~B&C);
 
 endmodule
